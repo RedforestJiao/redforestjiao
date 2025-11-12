@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: hjm
-subtitle: ''
+title: Welcom to RedforestJiao
+subtitle: 'A Virtual RIP'
 description: ''
 keywords:
 author: Johnson(pronounce in Chinese)
-language: zh
-timezone: ''
+language: zh-tw
+timezone: Asia/Beijing
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
