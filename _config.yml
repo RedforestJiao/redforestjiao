@@ -102,5 +102,5 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:wangshouz/wangshouz.github.io.git
-  branch: master
+  repo: https://github.com/RedforestJiao/redforestjiao.github.io.git
+  branch: main
