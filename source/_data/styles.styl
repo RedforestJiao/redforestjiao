@@ -13,17 +13,25 @@
 }
 }
 
+html {
+   font-size: 13px !important;
+}
+
+
+
+
 // Custom styles.
 // 整体背景设置
 body {
  	background:url(/images/IMG_0097.JPG);// 设定背景图片,images同处于source文件夹下
  	background-repeat: no-repeat;// 设定背景图片非重复填充
-    background-attachment:fixed;// 设置背景图片不随页面滚动
-    background-position:50% 50%;// 设置背景图片位置
+  background-attachment:fixed;// 设置背景图片不随页面滚动
+  background-position:50% 50%;// 设置背景图片位置
 	background-size: cover// 设置保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小
 }
 
-/* 添加遮罩层 */
+
+// 添加遮罩层 
 body::before {
   content: "";
   position: fixed;
@@ -33,18 +41,18 @@ body::before {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.4); /* 白色半透明蒙版 */
   z-index: -1; /* 放到最底层 */
-}
+} 
 
 //超链接颜色调整
 .content-wrap a:not(.btn){
-  color:rgba(97, 4, 132, 0.79); //超链接显示颜色
+  color:rgba(0, 47, 254, 0.79); //超链接显示颜色
   border-bottom: none;
   &:hover {
-	color:rgb(211, 136, 16);  //鼠标移动上去后超链接颜色
+	color:rgb(137, 72, 195);  //鼠标移动上去后超链接颜色
 	font-weight: bold;
 	text-decoration: underline;
 	}
-  }
+}
 
 // 文章背景的透明度
 .content-wrap {
@@ -59,14 +67,14 @@ a, span.exturl {
 //标题颜色
 brand {
   border-bottom: none;
-  color:rgb(255, 255, 255) !important;
+  //color:rgb(255, 255, 255) !important;
   display: inline-block;
   line-height: $font-size-title;
   padding: 40px 0px;
   position: center;
 
   &:hover {
-    color: rgb(0, 0, 255) !important; //悬停颜色，被链接颜色覆盖
+    //color: rgb(0, 0, 255) !important; //悬停颜色，被链接颜色覆盖
   }
 }
 .site-subtitle {
@@ -151,8 +159,8 @@ brand {
 }
 
 /* 修改标签页标题“标签”的颜色 */
-.page-title {
-  color: #ff7b7b;  /* 页面标题文字颜色 */
+.post-title {
+  color: #ff7b7b ;  /* 页面标题文字颜色 */
 }
 
 /* 修改标签列表中的每个标签链接颜色 */
@@ -162,15 +170,18 @@ brand {
 }
 
 .tag-cloud a:hover {
-  color: #ff6b81;          /* 鼠标悬停颜色 */
+  color: #ff6b81 !important;          /* 鼠标悬停颜色 */
+}
+.tag-cloud-title {
+  color: #ff6b81 ; 
 }
 
 /* 修改标签计数数字颜色（如果有） */
 .tag-cloud a .tag-count {
-  color: #aaa;
+  color:  #ff6b81 !important;
 }
 
 // 底部字体颜色
-.footer-inner {color:rgb(130, 213, 143);}
+.footer-inner {color:rgb(0, 0, 0);}
 
 
